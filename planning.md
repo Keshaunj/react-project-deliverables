@@ -24,19 +24,19 @@ The Spam Caller Detector is an application that helps users identify and block u
 
 ## **Stretch Goal User Stories**
 
-1. **As a user, I want to receive real-time notifications for suspected spam calls, so that I can avoid answering them.**
+1. **As a user, I want to receive real-time reports for suspected spam calls, so that I can avoid answering them.**
 2. **As a user, I want to see the total number of reports for each spam caller, so that I can understand the frequency of spam.**
 3. **As a user, I want to be able to review a history of searched numbers, so that I can easily reference previous lookups.**
 
 ---
 
-## **Wireframes**
+## **Wireframes Not set up **
 The wireframes for the main pages of the application are included in the `wireframes/` folder. The key pages are:
 
-1. **Home/Search Page:** A simple interface with a search bar where users can enter a phone number.
-2. **Results Page:** Displays the result of the search, including whether the number is identified as spam, verified, or unknown.
-3. **Report Page:** Allows users to report a phone number as spam, including an optional comment.
-4. **Admin Dashboard:** Admin interface for managing the spam caller database.
+1. **Home/Search Page/MVP:** A simple interface with a search bar where users can enter a phone number.
+2. **Results Page/MVP:** Displays the result of the search, including whether the number is identified as spam, verified, or unknown.
+3. **Report Page/Strech Goal:** Allows users to report a phone number as spam, including an optional comment.
+4. **Admin Dashboard/Strech Goal:** Admin interface for managing the spam caller database.
 
 ---
 
@@ -44,26 +44,26 @@ The wireframes for the main pages of the application are included in the `wirefr
 
 The data model for the Spam Caller Detector app is as follows:
 
-### **User**
+### **User/Strech Goal**
 - `userId`: String
 - `username`: String
 - `email`: String
 - `password`: String
 
-### **PhoneNumber**
+### **PhoneNumber/MVP**
 - `numberId`: String
 - `phoneNumber`: String
 - `status`: Enum ("Spam", "Verified", "Unknown")
 - `reportCount`: Number
 
-### **Report**
+### **Report/ MVP**
 - `reportId`: String
 - `userId`: Reference to User
 - `numberId`: Reference to PhoneNumber
 - `comment`: String
 - `createdAt`: Date
 
-### **Admin**
+### **Admin/strech goal**
 - `adminId`: String
 - `username`: String
 - `password`: String
@@ -87,7 +87,7 @@ The ERD diagram is included in the `ERD/` folder of the GitHub repo.
 ---
 
 ## **Trello Board Link (Optional)**
-- Trello Board: `[Trello-board-link](#)` (if applicable)
+- Trello Board: `[not setup currently](#)` (if applicable)
 
 ---
 
