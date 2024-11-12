@@ -32,7 +32,12 @@ The **Spam Caller Detector** is an application designed to help users identify a
 - **Deployment:** Vercel (Front-end), Render (Back-end)
 
 ## 📐 ERD (Entity Relationship Diagram)
-**Note:** ERD setup is not started yet.
+**Note:** ## Entity-Relationship Diagram (ERD)
+
+Here is the ERD for the Spam Call Detector application:
+
+![ERD](https://i.imgur.com/XXXXX.jpg) 
+
 
 ## 🖥️ Wireframes
 **Note:** Wireframes have not been created yet.
