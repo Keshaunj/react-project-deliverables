@@ -69,6 +69,12 @@ The data model for the Spam Caller Detector app is as follows:
 - `password`: String
 
 The ERD diagram is included in the `ERD/` folder of the GitHub repo.
+## 📐 ERD (Entity Relationship Diagram)
+**Note:** ## Entity-Relationship Diagram (ERD)
+
+Here is the ERD for the Spam Call Detector application:
+
+![ERD](https://i.imgur.com/rARXj7G.png) 
 
 ---
 
@@ -95,3 +101,11 @@ The ERD diagram is included in the `ERD/` folder of the GitHub repo.
 - Complete the wireframes and ERD diagrams.
 - Set up the front-end and back-end GitHub repos.
 - Get approval from the instructor before starting development.
+
+## 📋 MVP User Stories
+
+1. **Search Feature:** Users can search for phone numbers to see if they are known spam callers.
+2. **Spam Label Display:** Users can view a label (Spam/Verified) for each number.
+3. **Block Feature:** Users can block spam numbers.
+4. **Reporting Feature:** Users can report numbers as spam.
+5. **Admin Management:** Admins can update the spam database.

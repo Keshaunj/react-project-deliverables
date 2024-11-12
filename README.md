@@ -11,16 +11,6 @@ The **Spam Caller Detector** is an application designed to help users identify a
 - **Report Spam:** Users can report a phone number as spam, adding it to the community database.
 - **Admin Management:** Admins can manage the spam call database by adding or removing numbers.
 
-## 📋 MVP User Stories
-
-1. **Search Feature:** Users can search for phone numbers to see if they are known spam callers.
-2. **Spam Label Display:** Users can view a label (Spam/Verified) for each number.
-3. **Block Feature:** Users can block spam numbers.
-4. **Reporting Feature:** Users can report numbers as spam.
-5. **Admin Management:** Admins can update the spam database.
-
-## 💡 Stretch Goals
-
 - **Real-Time Notifications:** Users receive alerts for suspected spam calls.
 - **Report Count:** Users can see the total number of spam reports for each number.
 - **Search History:** Users can review a history of searched numbers.
@@ -31,12 +21,6 @@ The **Spam Caller Detector** is an application designed to help users identify a
 - **Back-end:** Node.js, Express, MongoDB
 - **Deployment:** Vercel (Front-end), Render (Back-end)
 
-## 📐 ERD (Entity Relationship Diagram)
-**Note:** ## Entity-Relationship Diagram (ERD)
-
-Here is the ERD for the Spam Call Detector application:
-
-![ERD](https://i.imgur.com/rARXj7G.png) 
 
 
 ## 🖥️ Wireframes

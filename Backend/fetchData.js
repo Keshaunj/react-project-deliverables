@@ -1,6 +1,6 @@
 import axios from 'axios';  
 
-const apiUrl = 'https://api.numlookupapi.com/v1/validate/+17089731123?apikey=num_live_9oEmM1RoWaNtUeWuHePApepq7iuPMlxvLsFLtJBz'; /* <==replace your phone number desired to check data from api*/
+const apiUrl = 'https://api.numlookupapi.com/v1/validate/+17089730521?apikey=num_live_9oEmM1RoWaNtUeWuHePApepq7iuPMlxvLsFLtJBz'; /* <==replace your phone number desired to check data from api*/
 
 axios.get(apiUrl)
   .then(response => {
