@@ -36,7 +36,7 @@ The **Spam Caller Detector** is an application designed to help users identify a
 
 Here is the ERD for the Spam Call Detector application:
 
-![ERD](https://i.imgur.com/XXXXX.jpg) 
+![ERD](https://i.imgur.com/rARXj7G.png) 
 
 
 ## 🖥️ Wireframes
